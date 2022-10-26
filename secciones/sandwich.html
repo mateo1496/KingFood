@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KingFood</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../estilos.css">
+</head>
+<body>
+    <header>
+       <nav class="nav">
+        <a href="../index.html">
+            <img class="logo" src="../logo.png" alt="LOGO">
+        </a>
+       
+        <ul class="categorias">
+            <a  class="nav-link rounded-pill enlace" href="../secciones/hamburguesas.html">Hamburguesas</a>
+            <a  class="nav-link rounded-pill enlace" href="../secciones/sandwich.html">Sandiwch</a>
+            <a  class="nav-link rounded-pill enlace" href="../secciones/pizzas.html">Pizzas</a>
+            <a  class="nav-link rounded-pill enlace"  href="../secciones/veggie.html">Veggie</a>
+        </ul>
+    </nav>
+    </header>
+
+    <!-- Button trigger modal -->
+    <button style="margin-bottom: 20px; margin-left: 20px; border-radius: 40px; padding: 20px;" type="button" class="bg-warning mt-5 text-uppercase" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+      Seleccionados <span id="cantidad" class="badge rounded-pill bg-dark text-white bg-dark">0</span>
+    </button>
+
+    <div id="productosContenedor" class="row col-lg-12 col-xs-12 mt-5"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Productos</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div id="productosInterfaz" class="modal-body">
+          
+        </div>
+        <div class="modal-footer">
+            <p id="totalCompra" class="total"></p>
+            <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <button id="confirmar" type="button" class="btn btn-outline-warning">Confirmar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+     
+    <footer>
+        <nav class="nav">
+            <a>
+               <img class="logoFooter" src="../logo.png" href="./index.html">
+            </a>
+
+            <ul class="botones">
+                <a href="https://www.facebook.com/" class="fa fa-facebook facebook" target="_blank"></a>
+                <a href="https://twitter.com/?logout=1666299327328" class="fa fa-twitter twitter" target="_blank"></a>  
+                <a href="https://www.instagram.com/" class="fa fa-instagram instagram" target="_blank"></a>
+            </ul>
+        </nav>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../seccionesjs/globales.js"></script>
+    <script src="../seccionesjs/funciones.js"></script>
+    <script src="../seccionesjs/productos.js"></script>
+    <script src="../seccionesjs/mainSandwich.js"></script>
+</body>
+</html>
