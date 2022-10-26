@@ -1,0 +1,10 @@
+[{"id":1,"nombre":"Berenjena","precio":350,"descripcion":"Bread - White Epi Baguette","img":"../imgPizza/berenjena.jpg","cantidad":1},
+{"id":2,"nombre":"Brocoli","precio":320,"descripcion":"Devonshire Cream","img":"../imgPizza/brocoli.jpg","cantidad":1},
+{"id":3,"nombre":"Camarones","precio":620,"descripcion":"Wine - Periguita Fonseca","img":"../imgPizza/camarone.jpg","cantidad":1},
+{"id":4,"nombre":"Champiñon","precio":480,"descripcion":"Sambuca - Ramazzotti","img":"../imgPizza/champi.jpg","cantidad":1},
+{"id":5,"nombre":"Espinaca","precio":270,"descripcion":"Cape Capensis - Fillet","img":"../imgPizza/espinaca.jpg","cantidad":1},
+{"id":6,"nombre":"Huevo","precio":250,"descripcion":"Arctic Char - Fresh, Whole","img":"../imgPizza/huevo.jpg","cantidad":1},
+{"id":7,"nombre":"Jamon Crudo","precio":560,"descripcion":"Lamb - Whole, Fresh","img":"../imgPizza/jamon crudo.jpg","cantidad":1},
+{"id":8,"nombre":"Mozzarella","precio":240,"descripcion":"Mix Pina Colada","img":"../imgPizza/mozarrella.jpg","cantidad":1},
+{"id":9,"nombre":"Pepperoni","precio":450,"descripcion":"Honey - Lavender","img":"../imgPizza/peperoni.jpg","cantidad":1},
+{"id":10,"nombre":"Pizza Rellena","precio":700,"descripcion":"Crab - Blue, Frozen","img":"../imgPizza/rellena.jpg","cantidad":1}]

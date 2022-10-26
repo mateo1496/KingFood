@@ -1,0 +1,8 @@
+[{"id":1,"nombre":"El Camarone","precio":890,"descripcion":"Octopus","img":"../imgSandwich/El Camarone.jpg","cantidad":1},
+{"id":2,"nombre":"El Cordero","precio":540,"descripcion":"Doilies - 10, Paper","img":"../imgSandwich/El Cordero.jpg","cantidad":2},
+{"id":3,"nombre":"El especial de pollo","precio":390,"descripcion":"Sprouts - Brussel","img":"../imgSandwich/El especial de pollo.jpg","cantidad":3},
+{"id":4,"nombre":"El gran queso y cebolla","precio":290,"descripcion":"Wine - Chablis J Moreau Et Fils","img":"../imgSandwich/El gran queso y cebolla.jpg","cantidad":4},
+{"id":5,"nombre":"El simple de vegetales","precio":270,"descripcion":"Wine - Chablis J Moreau Et Fils","img":"../imgSandwich/El simple de vegetales.jpg","cantidad":4},
+{"id":6,"nombre":"El triple hamburguesa","precio":620,"descripcion":"Wine - Chablis J Moreau Et Fils","img":"../imgSandwich/El triple Hambur.jpg","cantidad":4},
+{"id":7,"nombre":"La gran triple","precio":400,"descripcion":"Wine - Chablis J Moreau Et Fils","img":"../imgSandwich/Los gran triple.jpg","cantidad":4},
+{"id":8,"nombre":"SandPollo","precio":450,"descripcion":"Wine - Chablis J Moreau Et Fils","img":"../imgSandwich/SandPollo.jpg","cantidad":4}]

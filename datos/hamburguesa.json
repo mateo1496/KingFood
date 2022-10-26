@@ -1,0 +1,8 @@
+[{"id":1,"nombre":"Bacon","precio":560,"descripcion":"Juice - Clam, 46 Oz","img":"../imgHambur/Bacon.jpg","cantidad":1},
+{"id":2,"nombre":"Big Carne","precio":450,"descripcion":"Sea Bass - Whole","img":"../imgHambur/Big Carne.jpg","cantidad":1},
+{"id":3,"nombre":"Chicken","precio":350,"descripcion":"Wine - Rioja Campo Viejo","img":"../imgHambur/Chicken.jpg","cantidad":1},
+{"id":4,"nombre":"Dos Carnes","precio":650,"descripcion":"Lemon Tarts","img":"../imgHambur/Dos Carnes.jpg","cantidad":1},
+{"id":5,"nombre":"Fish","precio":350,"descripcion":"Cake - Lemon Chiffon","img":"../imgHambur/Fish.jpg","cantidad":1},
+{"id":6,"nombre":"Super Cheddar","precio":290,"descripcion":"Wine - Red Oakridge Merlot","img":"../imgHambur/Super Cheddar.jpg","cantidad":1},
+{"id":6,"nombre":"The Chesse","precio":520,"descripcion":"Wine - Red Oakridge Merlot","img":"../imgHambur/The Chesse.jpg","cantidad":1},
+{"id":6,"nombre":"The vegetables","precio":250,"descripcion":"Wine - Red Oakridge Merlot","img":"../imgHambur/The Vegetable.jpg","cantidad":1}]

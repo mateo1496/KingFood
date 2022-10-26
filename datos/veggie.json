@@ -1,0 +1,6 @@
+[{"id":1,"nombre":"Bastones de vegetales","precio":210,"descripcion":"Vinegar - Rice","img":"../imgVeggie/Bastones de vegetales.jpg","cantidad":1},
+{"id":2,"nombre":"Bombas de espinacas","precio":230,"descripcion":"Coke - Classic, 355 Ml","img":"../imgVeggie/Bombas de espinacas.jpg","cantidad":2},
+{"id":3,"nombre":"Champi Rellenos","precio":270,"descripcion":"Wine - Red, Lurton Merlot De","img":"../imgVeggie/Champi rellenos.jpg","cantidad":3},
+{"id":4,"nombre":"Las gran hojas","precio":250,"descripcion":"Cod - Salted, Boneless","img":"../imgVeggie/Las gran hojas.jpg","cantidad":4},
+{"id":5,"nombre":"The Work","precio":350,"descripcion":"Eggplant - Baby","img":"../imgVeggie/The Work.jpg","cantidad":5},
+{"id":6,"nombre":"Veggie hambur","precio":370,"descripcion":"Wine - Conde De Valdemar","img":"../imgVeggie/Veggie hambur.jpg","cantidad":6}]
