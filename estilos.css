@@ -1,0 +1,194 @@
+body{
+    background-color: black;
+}
+/* HEADER */
+header{
+    font-size: 30px;
+    background-color: orange;
+    color: white;
+    margin-top: 20px;
+    border-radius: 100px;
+    font-family: 'Shrikhand', cursive;
+}
+.logo{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.categorias{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    list-style-type: none;
+    width: 60%;
+}
+
+.categorias :hover{
+    cursor: pointer;
+    background-color: black;
+    border-radius: 50px;
+}
+
+.enlace{
+   list-style-type: none;
+   color: white;
+}
+
+.enlace:hover{
+    background-color: black;
+    color: white;
+}
+
+/* FOOTER */
+footer{
+    margin-top: 100px;
+    background-color: orange;
+    border-radius: 100px;
+}
+
+.logoFooter{
+    width: 200px;
+    height: 200px;
+}
+
+.botones{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.botones a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #314652;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+  }
+  
+.botones a:hover {
+    transform: scale(1.2);
+  }
+
+.facebook:hover{
+    background-color: blue;
+}
+
+.twitter:hover{
+    background-color: lightblue;
+}
+
+.instagram:hover{
+    background-color: violet;
+}
+
+/* CARD INDEX */
+.cardIndex{
+    margin-top: 50px;
+    margin-left: 90px;
+    margin-bottom: 10px;
+}
+
+.botonIndex{
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+
+.descripcionIndex{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+/* CARD PRODUCTOS */
+.cardFuncion{
+    background-color: orange;
+    border-radius: 210px;
+}
+
+.nombre{
+    font-size: 35px;
+    font-family: 'McLaren', cursive;
+    color: white;
+}
+
+.descripcion{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.precio{
+    color: white;
+    font-size: 30px;
+    background-color: black;
+}
+
+.boton{
+    margin-left: 140px;
+    border-radius: 20px;
+    color: orange;
+    background-color: black;
+}
+
+/* FORMULARIO */
+.formulario{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.input{
+    padding: 20px;
+    border-radius: 40px;
+}
+
+.button{
+    border-radius: 20px;
+    background-color: orange;
+    text-transform: uppercase;
+    width: 150px;
+    height: 60px;
+}
+/* MODAL */
+.nombreModal{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.total{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.botonModal{
+    font-size: 20px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+    .categorias{
+        font-size: 15px;
+    }
+    .logo{
+        width: 100px;
+        height: 100px;
+    }
+    .badgeCard{
+       margin-left: 40px;
+    }
+    .logoFooter{
+        width: 100px;
+        height: 100px;
+    }
+}
